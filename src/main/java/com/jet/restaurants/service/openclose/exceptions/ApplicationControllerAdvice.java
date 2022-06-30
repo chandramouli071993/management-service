@@ -13,7 +13,7 @@ import java.util.NoSuchElementException;
 public class ApplicationControllerAdvice {
 
     @ExceptionHandler(NoSuchElementException.class)
-    public ResponseEntity<ErrorResponse> return400(NoSuchElementException ex) {
+    public ResponseEntity<ErrorResponse> return404(NoSuchElementException ex) {
         if (log.isErrorEnabled()) {
             log.error("Not found Exception: " + ex.getMessage(), ex);
         }
