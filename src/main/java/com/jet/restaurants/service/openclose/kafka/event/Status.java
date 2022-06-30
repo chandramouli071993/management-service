@@ -1,4 +1,4 @@
-package com.jet.restaurants.service.openclose.domain;
+package com.jet.restaurants.service.openclose.kafka.event;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonValue;
